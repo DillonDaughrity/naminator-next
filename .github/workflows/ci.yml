@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  lint:
+  test:
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+  build:
