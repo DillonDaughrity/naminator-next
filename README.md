@@ -192,3 +192,4 @@ NameCombinationSet          GeneratedName
 - **Google OAuth not working**: Make sure your redirect URI matches exactly: `http://localhost:3000/api/auth/callback/google`
 - **Database connection error**: Verify your `DATABASE_URL` includes `?sslmode=require` for Neon.
 - **Prisma client not found**: Run `npx prisma generate` after installing dependencies.
+
